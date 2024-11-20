@@ -1,0 +1,362 @@
+@font-face {
+  font-family: "Futura Std";
+  src: url("fonts/FuturaStd-Book.eot");
+  src: url("fonts/FuturaStd-Book.eot?#iefix") format("embedded-opentype"),
+    url("fonts/FuturaStd-Book.woff2") format("woff2"),
+    url("fonts/FuturaStd-Book.woff") format("woff"),
+    url("fonts/FuturaStd-Light.svg#FuturaStd-Light") format("svg")
+      url("fonts/FuturaStd-Book.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Std";
+  src: url("fonts/FuturaStd-Light.eot");
+  src: url("fonts/FuturaStd-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/FuturaStd-Light.woff2") format("woff2"),
+    url("fonts/FuturaStd-Light.woff") format("woff"),
+    url("fonts/FuturaStd-Light.ttf") format("truetype"),
+    url("fonts/FuturaStd-Light.svg#FuturaStd-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+*{padding:0;margin:0;}
+body {overflow-x:hidden;padding:0;margin:0;}
+ul {padding:0 !important;}
+li {list-style-type:none;}
+a {text-decoration:none !important;}
+.color-white {color:#ffffff !important;}
+.background-white {background:#ffffff;}
+.background-grey {background:#f0f0f0;}
+
+
+.top-bar {
+    background: #ffffff;
+}
+.top-bar {
+    background: #ffffff;
+    padding: 10px 0 10px 0;
+}
+.top-bar .col.col-6.col-md-6 a img {
+    width: 100%;
+    max-width: 200px;
+    background: #ffffff;
+    padding: 15px;
+}
+.top-bar-right {
+    text-align: right;
+}
+.top-bar-right a.login-button {
+    background: #0097b9;
+    color: #ffffff;
+    border-radius: 99px;
+    padding: 12px 25px;
+    font-weight: 600;
+}
+.top-bar-right a.login-button:hover {
+    background: #000000;
+}
+
+.request-meeting {
+    /* background: rgb(0,212,255); */
+    /* background: linear-gradient(90deg, rgba(0,212,255,1) 2%, rgba(86,121,9,1) 100%); */
+	    height: 100vh;
+		    position: relative;
+}
+.selectcheckintype {
+    /* background: rgb(0,212,255); */
+    /* background: linear-gradient(90deg, rgba(0,212,255,1) 2%, rgba(86,121,9,1) 100%); */
+	    height: 100vh;
+		    position: relative;
+}
+section.background-gradi.request-meeting.meeting-form {height: 100%;}
+.login-meeting {
+    /* background: rgb(0,212,255); */
+    /* background: linear-gradient(90deg, rgba(0,212,255,1) 2%, rgba(86,121,9,1) 100%); */
+	    height: 100vh;
+		    position: relative;
+}
+.request-meeting .col.col-12.col-md-12.col-sm-12 {
+    text-align: center;
+    margin: 0px auto 0px auto !important;
+    max-width: 550px;
+    background: #ffffff;
+    padding: 80px 40px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    position: absolute;
+    left: 50%;
+}
+.selectcheckintype .col.col-12.col-md-12.col-sm-12 {
+    text-align: center;
+    margin: 0px auto 0px auto !important;
+    max-width: 550px;
+    background: #ffffff;
+    padding: 80px 40px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    position: absolute;
+    left: 50%;
+}
+.login-meeting .col.col-12.col-md-12.col-sm-12 {
+    text-align: center;
+    margin: 0px auto 0px auto !important;
+    max-width: 550px;
+    background: #ffffff;
+    padding: 80px 40px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    position: absolute;
+    left: 50%;
+}
+
+.request-meeting .col.col-12.col-md-12.col-sm-12 >div a img {
+    width: 100%;
+    max-width: 220px;
+}
+.login-meeting .col.col-12.col-md-12.col-sm-12 >div a img {
+    width: 100%;
+    max-width: 220px;
+}
+.selectcheckintype .col.col-12.col-md-12.col-sm-12 >div a img {
+    width: 100%;
+    max-width: 220px;
+}
+.request-btn {
+    margin: 35px auto 0px auto;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.selectcheck-all {
+    padding: 25px 15px 25px 15px;
+    border: 2px solid #efefef;
+    margin: 30px 0 0 0;
+    border-radius: 10px;
+}
+.selectcheckintype h5 {
+    margin: 0px 0 0 0;
+}
+.selectcheckintype h5 span {
+    color: #0097b9;
+}
+.selectcheckintype-btns {
+    margin: 15px 0 0 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.request-btn a {
+    background: #0097b9;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 60px;
+    font-weight: 600;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    font-size: 25px;
+}
+.request-btn a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.selectcheckintype-btns a {
+    display: inline-block;
+    background: #0097b9;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 15px;
+    font-weight: 600;
+    overflow: hidden;
+    float: left;
+    width: 31.7%;
+    margin: 0 0.8% 0 0.8%;
+}
+
+.selectcheckintype-btns a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.request-meeting.meeting-form .col.col-12.col-md-12.col-sm-12 {
+    text-align: center;
+    margin: 45px auto 45px auto !important;
+        max-width: 650px;
+    width: 90%;
+    background: #ffffff;
+    padding: 50px 40px;
+    border-radius: 15px;
+    position: unset;
+    transform: unset;
+}
+.request-meeting.meeting-form .col.col-12.col-md-12.col-sm-12 form {
+    float: left;
+    width: 100%;
+}
+.request-meeting.meeting-form form br {
+    display: none;
+}
+.request-meeting.meeting-form form label {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Futura Std';
+    margin-bottom: 5px;
+}
+.request-meeting.meeting-form form input {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Futura Std';
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000 !important;
+    outline: none;
+    padding: 4px 10px;
+}
+.request-meeting.meeting-form .col.col-12.col-md-12.col-sm-12 form > div {
+    float: left;
+    width: 46%;
+    margin: 0 2% 15px 2%;
+}
+.request-meeting.meeting-form .col.col-12.col-md-12.col-sm-12 form > div.submit-button {
+    width: calc(100% - 4%);
+    margin: 20px 2% auto 2%;
+}
+.request-meeting.meeting-form .col.col-12.col-md-12.col-sm-12 form > div.submit-button input {
+    background: #0097b9;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 60px !important;
+    font-weight: 600;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 0 !important;
+    height: auto;
+}
+.request-meeting.meeting-form .col.col-12.col-md-12.col-sm-12 form > div.submit-button input:hover {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 60px !important;
+    font-weight: 600;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 0 !important;
+    height: auto;
+}
+
+.login-meeting form {
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+    max-width: 400px;
+}
+.login-meeting form > div {
+    margin: 0 0 10px 0;
+    float: left;
+    width: 100%;
+}
+.login-meeting form > div label {
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Futura Std';
+}
+.login-meeting form > div input {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Futura Std';
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000 !important;
+    outline: none;
+    padding: 4px 10px;
+}
+.login-meeting form > div.submit-button {
+    margin: 8px 0 0 0;
+}
+.login-meeting form > div.submit-button input {
+    background: #0097b9;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 8px 60px !important;
+    font-weight: 600;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 0 !important;
+    height: auto;
+}
+	.meeting-form select#country {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Futura Std';
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000 !important;
+    padding: 4px 10px;
+    outline: none;
+    box-shadow: none;
+}
+
+@media (min-width: 0px) and (max-width: 567px) {
+.request-meeting .row.align-items-center  .col.col-12.col-md-12.col-sm-12 { max-width: 90% !important; }
+.request-btn a { padding: 20px; }
+.request-meeting.meeting-form .col.col-12.col-md-12.col-sm-12 {
+padding: 50px 20px;
+}
+.login-meeting .col.col-12.col-md-12.col-sm-12 {
+width: 90%;
+}
+
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.request-meeting.meeting-form .col.col-12.col-md-12.col-sm-12 form > div {
+    float: left;
+    width: 100%;
+    margin: 0 0% 15px 0%;
+}
+.selectcheckintype-btns a {
+    display: inline-block;
+    background: #0097b9;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 15px;
+    font-weight: 600;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin: 7px 0 7px 0;
+}
+}
+
+@media (min-width: 0px) and (max-width: 980px) {
+}
+
+@media (min-width: 2000px) and (max-width: 10000px) {
+	section.background-gradi.request-meeting.meeting-form {height: 100vh;}
+}
